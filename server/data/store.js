@@ -9,7 +9,12 @@ const EMPTY_DB = { posts: [] };
 
 function ensureDB() {
   if (!fs.existsSync(DB_FILE)) {
-    fs.writeFileSync(DB_FILE, JSON.stringify(EMPTY_DB, null, 2));
+    if (process.env.VERCEL) {
+      const sourceDB = path.join(__dirname, "db.json");
+      fs.copyFileSync(sourceDB, DB_FILE);
+    } else {
+      fs.writeFileSync(DB_FILE, JSON.stringify(EMPTY_DB, null, 2));
+    }
   }
 }
 
