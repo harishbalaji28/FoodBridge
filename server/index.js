@@ -34,11 +34,10 @@ app.use((req, res) => {
 });
 
 // Start Server
-app.listen(PORT, () => {
-  console.log(`✅ FoodBridge server running on http://localhost:${PORT}`);
-  console.log(`   Endpoints:`);
-  console.log(`   GET  http://localhost:${PORT}/api/posts?status=`);
-  console.log(`   POST http://localhost:${PORT}/api/posts`);
-  console.log(`   POST http://localhost:${PORT}/api/posts/:id/claims`);
-  console.log(`   GET  http://localhost:${PORT}/api/stats`);
-});
+module.exports = app;
+
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`FoodBridge server running on http://localhost:${PORT}`);
+  });
+}
