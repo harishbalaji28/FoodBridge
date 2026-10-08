@@ -1,0 +1,103 @@
+{
+  "posts": [
+    {
+      "id": "7a0071d2-ff2f-4be3-952c-b142c2355013",
+      "foodName": "pasta",
+      "description": "white sauce mushroom pasta",
+      "totalServings": 5,
+      "remainingServings": 4,
+      "pickupPoint": "ab4",
+      "bestBefore": "2026-10-08T17:45:00.000Z",
+      "createdAt": "2026-10-08T04:34:40.704Z",
+      "status": "open",
+      "claims": [
+        {
+          "id": "7a9d0612-e54f-48cf-a229-99b064885d8c",
+          "claimerName": "karthikeya p",
+          "registrationNumber": "25BLC1328",
+          "servings": 1,
+          "claimedAt": "2026-10-08T04:35:18.971Z"
+        }
+      ]
+    },
+    {
+      "id": "5221021e-f39c-4de1-81cc-23435679d427",
+      "foodName": "pizza",
+      "description": "vegetarian , contains dairy , contains less fat, fresh and tasty with delicious toppings",
+      "totalServings": 5,
+      "remainingServings": 5,
+      "pickupPoint": "ab1 amphi",
+      "bestBefore": "2026-10-09T20:36:00.000Z",
+      "createdAt": "2026-10-07T18:37:47.071Z",
+      "status": "open",
+      "claims": []
+    },
+    {
+      "id": "post-101",
+      "foodName": "Fresh Baked Vegetable Puffs & Croissants",
+      "description": "Surplus breakfast pastry boxes from the Dean's Morning Faculty Meeting. Kept sealed and warm.",
+      "totalServings": 12,
+      "remainingServings": 8,
+      "pickupPoint": "Main Admin Building, 2nd Floor Faculty Lounge Counter",
+      "bestBefore": "2026-10-08T03:00:00.000Z",
+      "createdAt": "2026-10-07T17:30:00.000Z",
+      "status": "expired",
+      "claims": [
+        {
+          "id": "claim-101",
+          "claimerName": "Priya Sharma",
+          "registrationNumber": "ST2024CS104",
+          "servings": 4,
+          "claimedAt": "2026-10-07T17:45:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "post-102",
+      "foodName": "Vegetable Biryani with Raita & Salan",
+      "description": "Leftover catered buffet trays from the Robotics Workshop. Packed in food-grade foil containers.",
+      "totalServings": 15,
+      "remainingServings": 4,
+      "pickupPoint": "Hostel 4 Ground Floor Mess / Dining Hall",
+      "bestBefore": "2026-10-08T04:30:00.000Z",
+      "createdAt": "2026-10-07T17:00:00.000Z",
+      "status": "expired",
+      "claims": [
+        {
+          "id": "claim-102-1",
+          "claimerName": "Rahul Nair",
+          "registrationNumber": "ST2023ME045",
+          "servings": 6,
+          "claimedAt": "2026-10-07T17:15:00.000Z"
+        },
+        {
+          "id": "claim-102-2",
+          "claimerName": "Ananya Joshi",
+          "registrationNumber": "ST2023EC089",
+          "servings": 5,
+          "claimedAt": "2026-10-07T17:25:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "post-103",
+      "foodName": "Assorted Sandwiches & Fruit Platters",
+      "description": "Packaged vegetarian club sandwiches and diced fresh fruit cups from Cultural Fest organizing team.",
+      "totalServings": 8,
+      "remainingServings": 5,
+      "pickupPoint": "Student Activity Centre (SAC) Room 102",
+      "bestBefore": "2026-10-08T06:00:00.000Z",
+      "createdAt": "2026-10-07T17:10:00.000Z",
+      "status": "expired",
+      "claims": [
+        {
+          "id": "claim-103",
+          "claimerName": "Karan Malhotra",
+          "registrationNumber": "ST2024IT021",
+          "servings": 3,
+          "claimedAt": "2026-10-07T17:20:00.000Z"
+        }
+      ]
+    }
+  ]
+}
